@@ -6,10 +6,10 @@ import styles from "./styles";
 
 const Header = () => {
   return (
-    <AppBar>
+    <AppBar color="secondary">
       <Toolbar>
         <Typography variant="h5" component="h1">
-          <PetsIcon css={styles.headerIcon}/>
+          <PetsIcon css={styles.headerIcon} />
           MarketFetch
         </Typography>
       </Toolbar>
