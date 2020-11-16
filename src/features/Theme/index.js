@@ -1,2 +1,2 @@
-import theme from "./Theme.js";
+import theme from "./Theme";
 export default theme;
