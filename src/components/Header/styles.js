@@ -12,6 +12,9 @@ const styles = {
     flex: 1;
     color: ${theme.palette.primary.contrastText};
   `,
+  menuIcon: css`
+    color: ${theme.palette.primary.contrastText};
+  `,
 };
 
 export default styles;
