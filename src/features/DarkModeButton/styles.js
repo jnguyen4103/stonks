@@ -2,18 +2,16 @@ import { css } from "@emotion/react";
 import theme from "features/Theme";
 
 const styles = {
-  headerIcon: css`
-    padding-right: ${theme.spacing(1)}px;
-  `,
-  toolBar: css`
+  darkModeBox: css`
+    display: inline-flex;
     align-items: center;
+    padding-top: ${theme.spacing(1)}px;
   `,
-  headerTypography: css`
-    flex: 1;
+  sunIcon: css`
     color: ${theme.palette.primary.contrastText};
   `,
-  menuIcon: css`
-    color: ${theme.palette.primary.contrastText};
+  moonIcon: css`
+    color: ${theme.palette.secondary.main};
   `,
 };
 
