@@ -9,7 +9,7 @@ import SideBar from "components/SideBar/SideBar";
 
 const Header = () => {
   const [sideBarState, setSideBarState] = useState(false);
-  const DisplaySideBar = () => {
+  const displaySideBar = () => {
     const sideBarProps = {
       state: sideBarState,
       setState: setSideBarState,
@@ -31,7 +31,7 @@ const Header = () => {
         >
           <MenuRoundedIcon css={styles.menuIcon} />
         </IconButton>
-        <DisplaySideBar />
+        {displaySideBar()}
       </Toolbar>
     </AppBar>
   );
