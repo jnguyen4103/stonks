@@ -7,8 +7,9 @@ import {
   List,
   ListItemText,
   ListItemIcon,
+  ListItem,
 } from "@material-ui/core";
-import styles, { SideBarButton } from "./styles";
+import styles from "./styles";
 import TrendingUpIcon from "@material-ui/icons/TrendingUp";
 import TrendingDownIcon from "@material-ui/icons/TrendingDown";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
@@ -34,12 +35,12 @@ const SideBar = (props) => {
         <DarkModeButton />
         <List>
           {drawerButtonNames.map((text, index) => (
-            <SideBarButton button key={text}>
-              <ListItemIcon css={styles.listItemButton}>
+            <ListItem button key={text} css={styles.listItemButton}>
+              <ListItemIcon css={styles.listItem}>
                 {drawerButtonIcons[index]}
               </ListItemIcon>
-              <ListItemText primary={text} css={styles.listItemButton} />
-            </SideBarButton>
+              <ListItemText primary={text} css={styles.listItem} />
+            </ListItem>
           ))}
         </List>
       </Box>
