@@ -1,12 +1,12 @@
 /** @jsxImportSource @emotion/react */
 import React from "react";
-import { InputAdornment } from "@material-ui/core";
-import styles, { SearchBarInputBase } from "./styles";
+import { InputAdornment, InputBase } from "@material-ui/core";
+import styles from "./styles";
 import SearchIcon from "@material-ui/icons/Search";
 
 const SearchBar = () => {
   return (
-    <SearchBarInputBase
+    <InputBase
       css={styles.searchBar}
       placeholder="Search"
       startAdornment={

@@ -1,5 +1,4 @@
 import { css } from "@emotion/react";
-import { ListItem, withStyles } from "@material-ui/core";
 import theme from "features/Theme";
 
 const styles = {
@@ -8,17 +7,14 @@ const styles = {
     height: 100%;
     text-align: center;
   `,
-  listItemButton: css`
+  listItem: css`
     color: ${theme.palette.primary.contrastText};
   `,
+  listItemButton: css`
+    :hover {
+      background-color: ${theme.palette.primary.light};
+    }
+  `,
 };
-
-export const SideBarButton = withStyles((theme) => ({
-  root: {
-    "&:hover": {
-      backgroundColor: theme.palette.primary.light,
-    },
-  },
-}))(ListItem);
 
 export default styles;
