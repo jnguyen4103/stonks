@@ -9,6 +9,7 @@ const styles = {
     align-items: center;
   `,
   headerTypography: css`
+    display: flex;
     flex: 1;
     color: ${theme.palette.primary.contrastText};
   `,

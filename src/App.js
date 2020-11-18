@@ -1,12 +1,14 @@
 import React from "react";
 import { ThemeProvider } from "@material-ui/core/styles";
-import Header from "components/Header";
 import theme from "features/Theme";
+import LandingPage from "components/LandingPage";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Header />
+      <div>
+        <LandingPage />
+      </div>
     </ThemeProvider>
   );
 }
