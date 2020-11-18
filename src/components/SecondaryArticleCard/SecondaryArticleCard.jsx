@@ -1,21 +1,20 @@
 /** @jsxImportSource @emotion/react */
+import PropTypes from "prop-types";
 import { Card, CardMedia, CardContent, Typography } from "@material-ui/core";
 import React from "react";
-import * as Cat from "images/russianblue.jpeg";
 import styles from "./styles";
 
-const SecondaryArticleCard = () => {
+const SecondaryArticleCard = (props) => {
   return (
     <Card css={styles.container}>
-      <CardMedia image={Cat.default} css={styles.cardImage} />
+      <CardMedia image={props.props.image} css={styles.cardImage} />
       <div css={styles.details}>
         <CardContent css={styles.content}>
-          <Typography component="h2" variant="h6">
-            Cat
+          <Typography variant="h6" component="h2">
+            {props.props.title}
           </Typography>
-          <Typography variant="body2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <Typography variant="subtitle2" component="p" color="textSecondary">
+            John Doe • November 18, 2020
           </Typography>
         </CardContent>
       </div>
@@ -23,4 +22,9 @@ const SecondaryArticleCard = () => {
   );
 };
 
+SecondaryArticleCard.propTypes = {
+  props: PropTypes.object,
+  image: PropTypes.string,
+  title: PropTypes.string,
+};
 export default SecondaryArticleCard;

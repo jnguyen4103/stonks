@@ -11,25 +11,19 @@ import Header from "components/Header";
 import styles from "./styles";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import DetailsGrid from "components/DetailsGrid";
+import SampleArticles from "data/SampleArticles";
 
 const LandingPage = () => {
-  const accordionHeaders = [
-    "Website 1",
-    "Website 2",
-    "Website 3",
-    "Website 4",
-    "Website 5",
-    "Website 6",
-  ];
+  const websitesArray = Object.keys(SampleArticles);
 
   const displayAccordions = () => {
-    return accordionHeaders.map((text) => (
+    return websitesArray.map((text) => (
       <Accordion key={text} defaultExpanded={true}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography>{text}</Typography>
+          <Typography>{SampleArticles[text].siteName}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <DetailsGrid />
+          <DetailsGrid props={SampleArticles[text]} />
         </AccordionDetails>
       </Accordion>
     ));
