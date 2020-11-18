@@ -4,7 +4,6 @@ import { AppBar, IconButton, Toolbar, Typography } from "@material-ui/core";
 import MenuRoundedIcon from "@material-ui/icons/MenuRounded";
 import PetsIcon from "@material-ui/icons/Pets";
 import styles from "./styles";
-import SearchBar from "components/SearchBar";
 import SideBar from "components/SideBar/SideBar";
 
 const Header = () => {
@@ -23,7 +22,6 @@ const Header = () => {
           <PetsIcon css={styles.headerIcon} />
           MarketFetch
         </Typography>
-        <SearchBar />
         <IconButton
           onClick={() => {
             setSideBarState(!sideBarState);

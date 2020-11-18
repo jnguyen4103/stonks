@@ -8,6 +8,9 @@ const styles = {
     max-width: 100%;
     max-height: 100%;
   `,
+  imageContainer: css`
+    display: flex;
+  `,
 };
 
 export default styles;

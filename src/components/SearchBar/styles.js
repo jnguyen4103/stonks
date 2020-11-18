@@ -5,7 +5,7 @@ const styles = {
   searchBar: css`
     background-color: ${theme.palette.primary.light};
     padding-left: ${theme.spacing(2)}px;
-    border-radius: 5px;
+    border-radius: 4px;
     :hover {
       background-color: ${theme.palette.primary.contrastText};
     }
