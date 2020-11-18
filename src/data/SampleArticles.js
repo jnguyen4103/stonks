@@ -50,7 +50,7 @@ const SampleArticles = {
       title:
         "Stock market news live updates: Dow rises after more positive vaccine trial data",
       body:
-        "Stocks mostly rose Wednesday morning after new data from Pfizer (PFE) helped stoke investor confidence that an effective vaccine will become available in the coming months.The pharmaceutical company reported Wednesday that it had concluded its Phase 3 trial of its vaccine candidate, and found its inoculation to be 95% effective against COVID-19. A week earlier, with fewer participants with confirmed cases of COVID-19 were available to analyze, Pfizer had said its vaccine candidate was “more than 90% effective.” Pfizer added Wednesday it now has the safety data required to be able to submit for emergency use authorization with the Food and Drug Administration “within days.”The Dow jumped about 50 points, or 0.2%, amid the news. A day earlier, each of the S&P 500 and Dow had pulled back slightly from record closing levels from Monday, when Moderna had released its own upbeat preliminary COVID-19 vaccine trial data.",
+        "Stocks mostly rose Wednesday morning after new data from Pfizer (PFE) helped stoke investor confidence that an effective vaccine will become available in the coming months.The pharmaceutical company reported Wednesday that it had concluded its Phase 3 trial of its vaccine candidate, and found its inoculation to be 95% effective against COVID-19. A week earlier, with fewer participants with confirmed cases of COVID-19 were available to analyze, Pfizer had said its vaccine candidate was “more than 90% effective.” Pfizer added Wednesday it now has the safety data required to be able to submit for emergency use authorization with the Food and Drug Administration “within days.”The Dow jumped about 50 points, or 0.2%, amid the news.",
     },
     secondaryArticles: {
       secondaryArticle1: {
@@ -91,7 +91,7 @@ const SampleArticles = {
       title:
         "Pfizer and BioNTech say final analysis shows coronavirus vaccine is 95% effective with no safety concerns",
       body:
-        "A final analysis of the Phase 3 trial of Pfizer’s coronavirus vaccine shows it was 95% effective in preventing infections, even in older adults, and caused no serious safety concerns, the company said Wednesday.The company counted 170 cases of coronavirus infection among volunteers who took part in the trial. It said 162 infections were in people who got placebo, or plain saline shots, while eight cases were in participants who got the actual vaccine. That works out to an efficacy of 95%, Pfizer said.The data show Pfizer’s initial claim of a better than 90% efficacy — a claim that stunned and pleased health officials and vaccine developers last week — holds up.“Efficacy was consistent across age, race and ethnicity demographics. The observed efficacy in adults over 65 years of age was over 94%,” Pfizer and its German partner BioNTech said in a joint statement.",
+        "A final analysis of the Phase 3 trial of Pfizer’s coronavirus vaccine shows it was 95% effective in preventing infections, even in older adults, and caused no serious safety concerns, the company said Wednesday.The company counted 170 cases of coronavirus infection among volunteers who took part in the trial. It said 162 infections were in people who got placebo, or plain saline shots, while eight cases were in participants who got the actual vaccine.",
     },
     secondaryArticles: {
       secondaryArticle1: {

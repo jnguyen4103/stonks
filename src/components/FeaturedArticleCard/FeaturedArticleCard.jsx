@@ -8,7 +8,7 @@ const FeaturedArticleCard = (props) => {
   return (
     <Card>
       <CardMedia image={props.props.image} css={styles.cardImage} />
-      <CardContent css={styles.cardContent}>
+      <CardContent>
         <Typography variant="h5" component="h2">
           {props.props.title}
         </Typography>

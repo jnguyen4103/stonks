@@ -4,15 +4,9 @@ const styles = {
   container: css`
     display: flex;
   `,
-  details: css`
-    display: flex,
-    flex-direction: column,
-  `,
-  content: css`
-    flex: 0 1 auto;
-  `,
   cardImage: css`
-    width: 150px;
+    max-width: 100%;
+    max-height: 100%;
   `,
 };
 
