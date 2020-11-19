@@ -16,7 +16,7 @@ import DetailsGrid from "components/DetailsGrid";
 import SampleArticles from "data/SampleArticles";
 import SearchBar from "components/SearchBar";
 
-const LandingPage = () => {
+const HomePage = () => {
   const websitesArray = Object.keys(SampleArticles);
 
   const displayAccordions = () => {
@@ -54,4 +54,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default HomePage;
