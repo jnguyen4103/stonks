@@ -39,9 +39,7 @@ const HomePageTickerDisplay = () => {
             {ticker.percentChange.toFixed(2)}%
           </Typography>
           <Typography
-            css={css`
-              ${styles.displayTickerColor(ticker.valueChange)}
-            `}
+            css={styles.displayTickerColor(ticker.valueChange)}
             variant="subtitle2"
             component="div"
           >
