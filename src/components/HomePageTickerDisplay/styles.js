@@ -8,7 +8,7 @@ const styles = {
     padding: ${theme.spacing(1)}px;
     :hover {
       cursor: pointer;
-      border-bottom: 2px solid ${theme.palette.primary.main};
+      box-shadow: 0 2px ${theme.palette.primary.main};
       filter: brightness(0.95);
     }
   `,

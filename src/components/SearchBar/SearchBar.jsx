@@ -1,12 +1,12 @@
 /** @jsxImportSource @emotion/react */
 import React from "react";
-import { InputAdornment, InputBase, Card } from "@material-ui/core";
+import { InputAdornment, InputBase, Box } from "@material-ui/core";
 import styles from "./styles";
 import SearchIcon from "@material-ui/icons/Search";
 
 const SearchBar = () => {
   return (
-    <Card css={styles.searchBar}>
+    <Box css={styles.searchBar} boxShadow={3}>
       <InputBase
         startAdornment={
           <InputAdornment position="start">
@@ -18,7 +18,7 @@ const SearchBar = () => {
         fullWidth={true}
         css={styles.input}
       />
-    </Card>
+    </Box>
   );
 };
 

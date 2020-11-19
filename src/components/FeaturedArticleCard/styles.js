@@ -8,7 +8,7 @@ const styles = {
   cardStyle: css`
     :hover {
       cursor: pointer;
-      border-bottom: 4px solid ${theme.palette.primary.main};
+      box-shadow: 0 4px ${theme.palette.primary.main};
       filter: brightness(0.95);
     }
     height: 100%;

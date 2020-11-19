@@ -6,7 +6,7 @@ const styles = {
     display: flex;
     :hover {
       cursor: pointer;
-      border-right: 4px solid ${theme.palette.primary.main};
+      box-shadow: 4px 0 ${theme.palette.primary.main};
       filter: brightness(0.95);
     }
   `,
