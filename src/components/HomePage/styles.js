@@ -8,9 +8,11 @@ const styles = {
   toolbar: css`
     ${theme.mixins.toolbar},
   `,
-  searchBarBox: css`
-    display: flex;
-    align-items: center;
+  searchBarGrid: css`
+    margin-top: ${theme.spacing(3)}px;
+  `,
+  accordionTitle: css`
+    font-weight: bold;
   `,
 };
 

@@ -7,7 +7,6 @@ import {
   Typography,
   AccordionDetails,
   Grid,
-  Box,
 } from "@material-ui/core";
 import Header from "components/Header";
 import styles from "./styles";
@@ -15,6 +14,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import DetailsGrid from "components/DetailsGrid";
 import SampleArticles from "data/SampleArticles";
 import SearchBar from "components/SearchBar";
+import HomePageTickerDisplay from "components/HomePageTickerDisplay";
 
 const HomePage = () => {
   const websitesArray = Object.keys(SampleArticles);
@@ -23,10 +23,8 @@ const HomePage = () => {
     return websitesArray.map((text) => (
       <Accordion key={text} defaultExpanded={true} css={styles.accordionStyle}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography>
-            <Box fontWeight="fontWeightBold">
-              {SampleArticles[text].siteName}
-            </Box>
+          <Typography css={styles.accordionTitle}>
+            {SampleArticles[text].siteName}
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -41,7 +39,8 @@ const HomePage = () => {
       <Header />
       <div css={styles.toolbar} />
       <Container maxWidth="lg" css={styles.container}>
-        <Grid container>
+        <HomePageTickerDisplay />
+        <Grid container css={styles.searchBarGrid}>
           <Grid item xs={3}></Grid>
           <Grid item xs={6}>
             <SearchBar />

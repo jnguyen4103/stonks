@@ -15,6 +15,9 @@ const styles = {
     position: relative;
     overflow-y: auto;
   `,
+  cardTitle: css`
+    font-weight: bold;
+  `,
   cardContent: css`
     position: absolute;
   `,
