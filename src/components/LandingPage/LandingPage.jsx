@@ -7,6 +7,7 @@ import {
   Typography,
   AccordionDetails,
   Grid,
+  Box,
 } from "@material-ui/core";
 import Header from "components/Header";
 import styles from "./styles";
@@ -22,7 +23,11 @@ const LandingPage = () => {
     return websitesArray.map((text) => (
       <Accordion key={text} defaultExpanded={true} css={styles.accordionStyle}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography>{SampleArticles[text].siteName}</Typography>
+          <Typography>
+            <Box fontWeight="fontWeightBold">
+              {SampleArticles[text].siteName}
+            </Box>
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <DetailsGrid props={SampleArticles[text]} />
