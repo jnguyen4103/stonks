@@ -10,6 +10,9 @@ const styles = {
       filter: brightness(0.95);
     }
   `,
+  cardTitle: css`
+    font-weight: bold;
+  `,
   cardImage: css`
     max-width: 100%;
     max-height: 100%;

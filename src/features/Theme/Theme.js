@@ -9,7 +9,6 @@ const theme = createMuiTheme({
       main: "#343434", //jet black
     },
   },
-  spacing: 8,
 });
 
 export default theme;
