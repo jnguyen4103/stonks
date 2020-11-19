@@ -3,18 +3,15 @@ import theme from "features/Theme";
 
 const styles = {
   searchBar: css`
-    background-color: ${theme.palette.primary.light};
-    padding-left: ${theme.spacing(2)}px;
-    border-radius: 5px;
-    :hover {
-      background-color: ${theme.palette.primary.contrastText};
-    }
-    :focus-within {
-      background-color: ${theme.palette.primary.contrastText};
-    }
+    border-radius: 4px;
+    width: 100%;
+    padding: ${theme.spacing(1)}px;
   `,
   searchIcon: css`
-    fill: ${theme.palette.primary.dark};
+    fill: ${theme.palette.primary.main};
+  `,
+  input: css`
+    font-size: ${theme.typography.h6};
   `,
 };
 

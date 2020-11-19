@@ -11,6 +11,7 @@ const styles = {
     color: ${theme.palette.primary.contrastText};
   `,
   listItemButton: css`
+    border-radius: 4px;
     :hover {
       background-color: ${theme.palette.primary.light};
     }

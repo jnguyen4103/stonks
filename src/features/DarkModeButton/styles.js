@@ -5,7 +5,7 @@ const styles = {
   darkModeBox: css`
     display: inline-flex;
     align-items: center;
-    padding-top: ${theme.spacing(1)}px;
+    margin-top: ${theme.spacing(1)}px;
   `,
   sunIcon: css`
     color: ${theme.palette.primary.contrastText};
