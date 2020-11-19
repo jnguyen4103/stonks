@@ -6,7 +6,7 @@ import {
   AccordionSummary,
   Typography,
   AccordionDetails,
-  Box,
+  Grid,
 } from "@material-ui/core";
 import Header from "components/Header";
 import styles from "./styles";
@@ -36,9 +36,13 @@ const LandingPage = () => {
       <Header />
       <div css={styles.toolbar} />
       <Container maxWidth="lg" css={styles.container}>
-        <Box css={styles.searchBarBox}>
-          <SearchBar />
-        </Box>
+        <Grid container>
+          <Grid item xs={3}></Grid>
+          <Grid item xs={6}>
+            <SearchBar />
+          </Grid>
+          <Grid item xs={3}></Grid>
+        </Grid>
         {displayAccordions()}
       </Container>
     </React.Fragment>

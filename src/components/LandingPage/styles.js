@@ -3,7 +3,7 @@ import theme from "features/Theme";
 
 const styles = {
   container: css`
-    padding-top: ${theme.spacing(3)}px;
+    margin-top: ${theme.spacing(3)}px;
   `,
   toolbar: css`
     ${theme.mixins.toolbar},

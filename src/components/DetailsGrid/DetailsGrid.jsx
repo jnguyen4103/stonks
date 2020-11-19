@@ -10,7 +10,7 @@ const DetailsGrid = (props) => {
   const displaySecondaryArticles = () => {
     const secondaryArticlesKeys = Object.keys(props.props.secondaryArticles);
     return secondaryArticlesKeys.map((text) => (
-      <Grid item xs={12} key={text} css={styles.articleCard}>
+      <Grid item xs={12} key={text} css={styles.secondaryArticleCard}>
         <SecondaryArticleCard props={props.props.secondaryArticles[text]} />
       </Grid>
     ));

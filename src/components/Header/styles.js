@@ -3,7 +3,7 @@ import theme from "features/Theme";
 
 const styles = {
   headerIcon: css`
-    padding-right: ${theme.spacing(1)}px;
+    margin-right: ${theme.spacing(1)}px;
   `,
   toolBar: css`
     align-items: center;
