@@ -12,9 +12,9 @@ import styles from "./styles";
 
 const FeaturedArticleCard = (props) => {
   return (
-    <Card css={styles.clickableCard}>
+    <Card css={styles.cardStyle}>
       <CardMedia image={props.props.image} css={styles.cardImage} />
-      <CardContent>
+      <CardContent css={styles.cardContent}>
         <Typography variant="h5" component="h2">
           <Box fontWeight="fontWeightBold">{props.props.title}</Box>
         </Typography>

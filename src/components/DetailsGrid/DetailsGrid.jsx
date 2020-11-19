@@ -18,7 +18,7 @@ const DetailsGrid = (props) => {
 
   return (
     <Grid container spacing={3}>
-      <Grid item xs={5} css={styles.featuredCardContainer}>
+      <Grid item xs={5}>
         <FeaturedArticleCard props={props.props.featuredArticle} />
       </Grid>
       <Grid item xs={7}>

@@ -8,9 +8,6 @@ const styles = {
       margin-bottom: 0;
     }
   `,
-  featuredCardContainer: css`
-    display: flex;
-  `,
 };
 
 export default styles;
