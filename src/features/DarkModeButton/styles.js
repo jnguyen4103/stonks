@@ -11,7 +11,7 @@ const styles = {
     color: ${theme.palette.primary.contrastText};
   `,
   moonIcon: css`
-    color: ${theme.palette.secondary.main};
+    color: ${theme.palette.secondary.dark};
   `,
 };
 
