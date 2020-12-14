@@ -1,3 +1,3 @@
 # Dependencies 
-Node
-Yarn
+<li>Node</li>
+<li>Yarn</li>
